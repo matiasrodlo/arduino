@@ -1,0 +1,62 @@
+# Arduino IDE
+*.hex
+*.elf
+*.bin
+*.eep
+*.lss
+*.sym
+*.map
+*.su
+*.d
+*.o
+*.a
+*.lst
+*.cpp.obj
+*.cpp.o
+*.c.obj
+*.c.o
+*.S.obj
+*.S.o
+*.ino.obj
+*.ino.o
+
+# Build directories
+build/
+*.build/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Arduino IDE preferences
+preferences.txt
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Library build files
+libraries/*/build/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Secrets and credentials (if using arduino_secrets.h)
+arduino_secrets.h
+secrets.h
+
